@@ -14,7 +14,7 @@ sound.preload = 'auto';
 sound.src = '/1f3a1e5280f6367.mp3';
 body.appendChild(sound);
 window.onscroll = () => {
-    sound.play().then(() => { setTimeout(this, 1000) });
+    sound.play();
 };
 let form = document.createElement('form');
 let textIn = document.createElement('input');
